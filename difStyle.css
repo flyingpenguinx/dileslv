@@ -1,0 +1,208 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.logo {
+  height: auto;
+  width: 200px; /* Increased logo size */
+}
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #6089e0;
+  box-shadow: #02204b;
+  z-index: 1000; /* Ensure the navbar is above other content */
+  height: 80px; /* Increased navbar height */
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.intro {
+  font-size: larger;
+}
+
+nav li {
+  height: 80px; /* Match navbar height */
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #4563a5;
+  transition: .8s;
+  text-decoration: underline;
+}
+
+.logo {
+  height: auto;
+  width: 200px; /* Increased logo size */
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+/* Sidebar for Mobile View */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #6089e0;
+  backdrop-filter: blur(10px);
+  box-shadow: #02204b;
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+/* Content Sections */
+.content-section {
+  display: none;
+  padding: 90px 20px 20px; /* Adjusted padding-top to push content below navbar */
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+/* Image Slider */
+.slider-container {
+  position: relative;
+  width: 80%; /* Adjust width to not take the full width */
+  margin: 20px auto; /* Center the slider and reduce top margin */
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.nav-arrow.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.nav-arrow.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* About Us Section */
+.about-block {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Suppliers Section */
+.supplier {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.supplier img {
+  max-width: 250px;
+  height: auto;
+}
+
+/* Contact Section */
+.contact-info {
+  background-color: #d0d0d0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #6089e0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
