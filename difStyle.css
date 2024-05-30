@@ -10,7 +10,7 @@ body {
 
 .logo {
   height: auto;
-  width: 200px; /* Increased logo size */
+  width: 200px; 
 }
 
 /* Navigation Bar */
@@ -20,7 +20,7 @@ nav {
   background-color: #6089e0;
   box-shadow: #02204b;
   z-index: 1000; /* Ensure the navbar is above other content */
-  height: 80px; /* Increased navbar height */
+  height: 80px; 
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav a:hover {
 
 .logo {
   height: auto;
-  width: 200px; /* Increased logo size */
+  width: 200px; 
   margin-left: 20px;
 }
 
@@ -93,7 +93,7 @@ nav li:first-child {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 980px) {
   .hideOnMobile {
     display: none;
   }
