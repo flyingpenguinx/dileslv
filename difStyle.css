@@ -19,7 +19,7 @@ nav {
   width: 100%;
   background-color: #6089e0;
   box-shadow: #02204b;
-  z-index: 1000; /* Ensure the navbar is above other content */
+  z-index: 1000; 
   height: 80px; 
 }
 
@@ -36,7 +36,7 @@ nav ul {
 }
 
 nav li {
-  height: 80px; /* Match navbar height */
+  height: 80px;
 }
 
 nav a {
@@ -112,7 +112,7 @@ nav li:first-child {
 /* Content Sections */
 .content-section {
   display: none;
-  padding: 90px 20px 20px; /* Adjusted padding-top to push content below navbar */
+  padding: 90px 20px 20px; 
   background-color: #f9f9f9;
   position: relative;
 }
@@ -120,8 +120,8 @@ nav li:first-child {
 /* Image Slider */
 .slider-container {
   position: relative;
-  width: 80%; /* Adjust width to not take the full width */
-  margin: 20px auto; /* Center the slider and reduce top margin */
+  width: 80%; 
+  margin: 20px auto; 
   overflow: hidden;
 }
 
