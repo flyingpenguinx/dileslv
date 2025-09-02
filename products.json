@@ -1,0 +1,94 @@
+{
+  "Dairy": {
+    "Cheese": [
+      { "name": "Whole Milk", "image": "images/dairy/whole-milk.jpg" },
+      { "name": "Skim Milk", "image": "images/dairy/skim-milk.jpg" },
+      { "name": "Lactose-Free Milk", "image": "images/dairy/lactose-free.jpg" }
+    ],
+    "Cremas": [
+      { "name": "Cheddar", "image": "images/dairy/cheddar.jpg" },
+      { "name": "Mozzarella", "image": "images/dairy/mozzarella.jpg" },
+      { "name": "Parmesan", "image": "images/dairy/parmesan.jpg" }
+    ],
+    "Yogurt": [
+      { "name": "Greek Yogurt", "image": "images/dairy/greek-yogurt.jpg" },
+      { "name": "Strawberry Yogurt", "image": "images/dairy/strawberry-yogurt.jpg" }
+    ]
+
+
+
+  },
+  "Frozen": {
+    "Vegetables": [
+      { "name": "Frozen Broccoli", "image": "images/frozen/broccoli.jpg" },
+      { "name": "Frozen Peas", "image": "images/frozen/peas.jpg" },
+      { "name": "Mixed Vegetables", "image": "images/frozen/mixed-veg.jpg" }
+    ],
+    "Fruits": [
+      { "name": "Vanilla Ice Cream", "image": "images/frozen/vanilla-icecream.jpg" },
+      { "name": "Chocolate Ice Cream", "image": "images/frozen/chocolate-icecream.jpg" },
+      { "name": "Strawberry Ice Cream", "image": "images/frozen/strawberry-icecream.jpg" }
+    ],
+    "Tamales & Riguas": [
+      { "name": "Lasagna", "image": "images/frozen/lasagna.jpg" },
+      { "name": "Chicken Nuggets", "image": "images/frozen/nuggets.jpg" }
+    ]
+  },
+
+
+
+  "Grocery": {
+    "Grains": [
+      { "name": "White Rice", "image": "images/grocery/white-rice.jpg" },
+      { "name": "Brown Rice", "image": "images/grocery/brown-rice.jpg" },
+      { "name": "Quinoa", "image": "images/grocery/quinoa.jpg" }
+    ],
+    "pan Dulce": [
+      { "name": "Black Beans", "image": "images/grocery/black-beans.jpg" },
+      { "name": "Corn", "image": "images/grocery/corn.jpg" },
+      { "name": "Tomato Sauce", "image": "images/grocery/tomato-sauce.jpg" }
+    ],
+    "Chips": [
+      { "name": "Potato Chips", "image": "images/grocery/chips.jpg" },
+      { "name": "Trail Mix", "image": "images/grocery/trail-mix.jpg" }
+    ]
+  },
+
+
+
+
+  "Drinks": {
+    "Juices": [
+      { "name": "Orange Juice", "image": "images/drinks/orange-juice.jpg" },
+      { "name": "Apple Juice", "image": "images/drinks/apple-juice.jpg" },
+      { "name": "Grape Juice", "image": "images/drinks/grape-juice.jpg" }
+    ],
+    "Soda": [
+      { "name": "Mineral Water", "image": "images/drinks/mineral-water.jpg" },
+      { "name": "Cola", "image": "images/drinks/cola.jpg" },
+      { "name": "Sparkling Water", "image": "images/drinks/sparkling.jpg" }
+    ],
+    "Energy Drinks": [
+      { "name": "Energy Plus", "image": "images/drinks/energy.jpg" },
+      { "name": "Sports Drink", "image": "images/drinks/sports.jpg" }
+    ]
+  },
+
+
+
+  "Vitamins": {
+    "General": [
+      { "name": "Vitamin C", "image": "images/vitamins/vitamin-c.jpg" },
+      { "name": "Multivitamin", "image": "images/vitamins/multivitamin.jpg" },
+      { "name": "Omega-3", "image": "images/vitamins/omega-3.jpg" }
+    ],
+    "Children": [
+      { "name": "Kids Gummies", "image": "images/vitamins/kids-gummies.jpg" },
+      { "name": "Chewable Multivitamins", "image": "images/vitamins/chewable.jpg" }
+    ],
+    "Supplements": [
+      { "name": "Protein Powder", "image": "images/vitamins/protein.jpg" },
+      { "name": "Collagen", "image": "images/vitamins/collagen.jpg" }
+    ]
+  }
+}
